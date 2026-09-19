@@ -1,0 +1,36 @@
+body{
+    background-color: bisque;
+}
+
+#receipt{
+    background-color: lightgoldenrodyellow;
+    width: 500px;
+    text-align: center;
+    margin-left: 30%;
+    border-radius: 25px;
+    margin-top: 3%;
+
+}
+
+#stock{
+    background-color: lightgoldenrodyellow;
+    width: 500px;
+    text-align: center;
+    margin-left: 30%;
+    border-radius: 25px;
+    margin-top: 1%;
+}
+
+#cover{
+    background-color: burlywood;
+    width: 500px;
+    border-radius: 5px;
+}
+
+h2{
+    color: white;
+}
+
+h4{
+    color: white;
+}
