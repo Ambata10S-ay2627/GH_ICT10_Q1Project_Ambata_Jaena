@@ -25,4 +25,13 @@ def generate_sku(e):
     product_name = document.getElementById("prods")
     stockquantity_ = document.getElementById("qnty")
 
+    _category = document.getElementById("ctg")
+    _category = str(_category)
+
+    product_name = document.getElementById("prods")
+    product_name = str(product_name)
+
+    stockquantity_ = document.getElementById("qnty")
+    stockquantity_ = str(stockquantity_)
+
     display(f'Your generated sku for each: {_category}, {product_name}, and {stockquantity_}', target="present")
