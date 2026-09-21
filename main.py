@@ -22,16 +22,12 @@ def create_order(e):
 
 def generate_sku(e):
     _category = document.getElementById("ctg")
-    product_name = document.getElementById("prods")
-    stockquantity_ = document.getElementById("qnty")
-
-    _category = document.getElementById("ctg")
-    _category = str(_category)
+    _category = str("ctg")
 
     product_name = document.getElementById("prods")
-    product_name = str(product_name)
+    product_name = str("prods")
 
     stockquantity_ = document.getElementById("qnty")
-    stockquantity_ = str(stockquantity_)
+    stockquantity_ = str("qnty")
 
-    display(f'Your generated sku for each: {_category}, {product_name}, and {stockquantity_}', target="present")
+    display(_category + product_name + stockquantity_, target="present")
